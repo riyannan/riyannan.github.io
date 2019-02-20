@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- html5 is not necessary, only html-->
+<html>
+<head>
+	<meta href="utf-8" />
+	<title>Errors-R-Us</title>
+</head>
+
+<body>
+	
+	<h1>This is a very important message from your sponsor</h1>
+<!-- extra <> found around heading-->
+    
+    <p>Somewhere, buried deep in this seemingly innocent-looking page of HTML, are<br>
+       some sinister errors waiting to unleash their foul villainy on an unsuspecting<br>
+       public.</p>
+<!-- \ was used instead of /-->
+       <p>
+           <em>Your mission, <font color="red">should you choose to accept it</font>, is to thwart their plans and
+<!-- em not required when changing font and the tag needed to be modified. i also added an ending tag to the font-->
+
+
+        rid this page of errors, once and for all.</em>
+        </p>
+<!-- extra em tags within the paragraph-->
+<!-- paragraph tags go around em tags not within them-->
+          
+       
+        <p>This is a <b>line of <i>very important</i></b><i> text</i></p>
+<!-- italics tag should be inside of bold tags because the bold started first. in order to complete the same function a few things needed to be moved around-->
+    <hr>
+<!-- no need for an ending tag for hr-->
+    
+<div style="text-align:center">
+<!-- div style needed to be rewritten-->
+    	<i>Congratulations! You are our lucky winner</i>
+<!-- closing italics tag was missing the slash-->
+    </div>
+    
+    <H2>My Bucket List</h2>
+    <ul>
+    	<li>Bucket of Fried Chicken</li>
+<!-- (i think) the paragraph tags were unneccessary-->
+        <li>Bucket of Shrimp</li>
+<!-- needed a slash before li-->
+        <li>Bucket of Tartar Sauce</li>
+        <li>Bucket of Chili</li>
+<!-- ol needed to be li-->
+        <li>Bucket of Popcorn</li>
+        </ul>
+<!-- end tag for ul was missing-->
+  
+    </html>
+
+
