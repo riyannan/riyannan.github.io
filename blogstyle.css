@@ -3,7 +3,10 @@
     background-color: #e3a1d3;
 }
 body{
+  color: white;
   font-family: 'Abel', sans-serif;
+  background-color: blue;
+  
 }
 #pink:hover{
 background-color: #CCD5FF;
