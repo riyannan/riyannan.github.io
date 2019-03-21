@@ -3,3 +3,10 @@
     background-color: #e3a1d3 }
 #Hover:hover{
 background-color: #CCD5FF;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  
+}
