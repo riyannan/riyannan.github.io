@@ -1,14 +1,19 @@
-  header {
+header {
+  border: 5px solid purple;
     color: darkpurple;
-    background-color: #e3a1d3;
+    background-color: #BC79EF;
+    padding-top: 1px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
 }
 body{
   color: white;
   font-family: 'Abel', sans-serif;
-  background-color: blue;
+  background-color: #5D59C7;
 }
 #pink:hover{
-background-color: #CCD5FF;
+background-color: purple;
 }
 
 ul {
@@ -22,10 +27,14 @@ ul {
     border-right: 1px solid #7CC6FE;
     padding: 10px;
 }
+h2{
+  font-size: 27px;
+  color: pink;
+}
 p{
-  font-size: 15px
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-right: 80px;
-  margin-left: 80px;
+    font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 0px;
 }
