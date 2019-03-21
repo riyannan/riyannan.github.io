@@ -26,6 +26,15 @@ ul {
     border-right: 1px solid #7CC6FE;
     padding: 10px;
 }
+#blue:hover{
+background-color: purple;
+}
+#blue{
+    float:right;
+    margin-right: 16px;
+    border-right: 1px solid #7CC6FE;
+    padding: 10px;
+}
 h2{
   font-size: 27px;
   color: pink;
