@@ -2,7 +2,10 @@
     color: darkpurple;
     background-color: #e3a1d3;
 }
-#Hover:hover{
+body{
+  font-family: 'Abel', sans-serif;
+}
+#pink:hover{
 background-color: #CCD5FF;
 }
 
