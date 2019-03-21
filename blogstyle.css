@@ -10,5 +10,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
-  
+}
+#pink{
+    float:left;
+    margin-right: 16px;
+    border-right: 1px solid #7CC6FE;
+    padding: 10px;
 }
