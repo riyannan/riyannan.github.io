@@ -1,0 +1,119 @@
+/*
+23C9FF
+7CC6FE
+CCD5FF
+E7BBE3
+C884A6*/
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    background-color: #383434; 
+    color: #E7E8E9;
+}
+#thepic{
+    width: 400px;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+    margin-right: 1em;
+    float: left;
+    margin-top: 0;
+
+}
+#Hover:hover{
+font-size: 1.2em;
+background-color: #CCD5FF;
+}
+#pink{
+    float:left;
+    margin-right: 16px;
+    border-right: 1px solid #7CC6FE;
+    padding: 10px;
+}
+#theparagraph{
+    line-height: 1.8;
+}
+.animation {
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.menu{
+    width: 100%;
+    height: 75px;
+    background-color: #CCD5FF;
+    margin-bottom: 2em;
+}
+header{
+    position: sticky;
+    top: 0;
+    padding-bottom: 3em;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+li{
+    /* display: inline-block; */
+    margin-left: 2em;
+    margin-right: 2em;
+    float: right;
+    margin-top: 2em;
+}
+#name{
+    float: left;
+    font-size: 1.5em;
+    color: #C884A6;
+    margin-top: 1em;
+}
+.navitem{
+text-decoration: none;
+color: #C884A6;
+}
+.navitem:hover{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#PersonalSummary{
+    line-height: 1.8;
+    padding-top: 5em;
+}
+#main{
+    width: 90%;
+    margin: 0 auto;
+}
+#learned{
+    margin-top: 2.5em;
+    clear: both;
+}
+.link{
+    width: 33%;
+    float: left;
+}
+.galleryimg{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    margin-top: .5em;
+    font-weight: 700;
+    width: 100%;
+}
+.desc{
+    text-align: center;
+    border: #C884A6 solid;
+    width: 70%;
+    margin-left: 2em;
+}
